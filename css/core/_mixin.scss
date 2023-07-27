@@ -1,0 +1,20 @@
+//Conjunto de codigo usa variables va debajo de _var para poder usar las variables
+
+@mixin menu (){
+
+}
+
+@mixin cajasFlexibles(){
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+//Ejemplo pasar variables
+@mixin carFuente($family, $size, $color, $height){
+    font-family: $family;
+    font-size: $size;
+    color: $color;
+    line-height: $height;
+}

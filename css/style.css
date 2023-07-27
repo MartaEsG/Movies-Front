@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #525252;
+  height: 10vh;
+}
+
+.main {
+  background-color: #e9d8d8;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+  align-content: space-around;
+}
+.main-figure {
+  width: 200px;
+}
+.main-figure-img {
+  width: 100%;
+}
+
+.footer {
+  background-color: #525252;
+  height: 10vh;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+.main {
+    background-color: $color-secundary;      
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    align-content: space-around;
+      &-figure {
+        width: 200px;
+        &-img{
+          width: 100%;
+        }
+    }
+  }
